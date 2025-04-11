@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary: #60B5FF;
+  --color-secondary: #AFDDFF;
+  --color-background:#F1E7E7; 
+  --color-pink-primary: #E69DB8;
+  --color-destructive: #ff0000;
+  --color-pink-secondary: #FFD0C7;
+  --color-yellow-cake: #FFFECE;
+  --font-poppins: Poppins, sans-serif;
+  --breakpoint-2xl: 500px;
+}
+
+@layer base {
+  .card {
+    @apply shadow rounded-xl bg-white min-h-[500px] p-5 flex flex-col gap-2
+  }
+}
+
+ 
