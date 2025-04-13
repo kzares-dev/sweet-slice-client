@@ -9,7 +9,7 @@
 <a
   href="/auth"
   class={cn(
-    "flex flex-row gap-2 items-center  rounded-2xl",
+    "flex flex-col md:flex-row gap-2 items-center  rounded-2xl",
     page.url.pathname === '/auth' ? "underline" : "text-gray-600"
   )}
 >
